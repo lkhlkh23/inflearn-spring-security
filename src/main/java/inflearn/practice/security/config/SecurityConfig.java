@@ -25,9 +25,8 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfig {
 
-	// TODO : SpringBoot 3.x 이후부터 왜 WebSecurityConfigureAdapter 를 상속받지 않는가?!
-	// TODO : AuthenticationManager 는 무엇인가?!
-	// TODO : UserDetailsService 는 무엇인가?!
+	// TODO : SpringBoot 3.x 이후부터 왜 WebSecurityConfigureAdapter 를 상속받지 않는가?! 정리
+	// TODO : AuthenticationManager + UserDetailsService 정리!
 
 	@Bean
 	public SecurityFilterChain filterChain(final HttpSecurity http) throws Exception {
